@@ -14,21 +14,34 @@ Your code should be covered by unit tests.
 Feel free to use any kind of unit test framework
 
 Description
-Write a program to predict a final position of two balls that are moving on a billiards kind of table. 
-1.Assume that the balls are of 0 radius; i.e. they are infinitesimally small. 
-2.The balls may collide with each other or the billiards table wall.
-3.Assume that the collisions are perfectly elastic
-4.Assume that there is no friction anywhere
-5.Assume that the acceleration is 0. 
-Input/Output
-Input: 
-1.The size of the table is given – 1 x 1 mts; i.e. a square table. That is a program constant
-2.The initial location of the two balls would be given to you in terms of [x,y] coordinates; the lower left corner of the table is [0,0]
-3.The initial velocity of the two balls is given – The speed, in mts/sec, AND the direction at which the balls are moving specified as angle from the positive y axis in clockwise direction. Remember we are viewing the table as a Cartesian plane with lower left corner at [0,0] E.g. if the ball is moving in positive y direction (north), the angle is 0, if the ball is moving east the angle is 90. 
-4.nTimeInSec – Time in seconds after which the position is to be calculated. So your program has to simulate the balls moving on that table for that many seconds, handling any collisions that might occur in between.  
-Output: 
-1.The position of the balls, in the [x,y] plane after nTimeInSec. 
 
+Write a program to predict a final position of two balls that are moving on a billiards kind of table. 
+
+1.Assume that the balls are of 0 radius; i.e. they are infinitesimally small. 
+
+2.The balls may collide with each other or the billiards table wall.
+
+3.Assume that the collisions are perfectly elastic
+
+4.Assume that there is no friction anywhere
+
+5.Assume that the acceleration is 0. 
+
+Input/Output
+
+Input: 
+
+1.The size of the table is given – 1 x 1 mts; i.e. a square table. That is a program constant
+
+2.The initial location of the two balls would be given to you in terms of [x,y] coordinates; the lower left corner of the table is [0,0]
+
+3.The initial velocity of the two balls is given – The speed, in mts/sec, AND the direction at which the balls are moving specified as angle from the positive y axis in clockwise direction. Remember we are viewing the table as a Cartesian plane with lower left corner at [0,0] E.g. if the ball is moving in positive y direction (north), the angle is 0, if the ball is moving east the angle is 90. 
+
+4.nTimeInSec – Time in seconds after which the position is to be calculated. So your program has to simulate the balls moving on that table for that many seconds, handling any collisions that might occur in between.  
+
+Output: 
+
+1.The position of the balls, in the [x,y] plane after nTimeInSec. 
 
 Please complete the class and make sure all your unit tests pass :)
 
