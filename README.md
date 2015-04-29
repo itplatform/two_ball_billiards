@@ -43,8 +43,6 @@ Output: 
 
 1.The position of the balls, in the [x,y] plane after nTimeInSec. 
 
-Please complete the class and make sure all your unit tests pass :)
-
 Good luck!
 
 <br />
